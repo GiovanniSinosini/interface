@@ -8,9 +8,9 @@ public class RentalService {
 	private Double pricePerDay;
 	private Double pricePerHour;
 	
-	private BrazilTaxService taxService;
+	private TaxService taxService;  // in the main program, the specific fee method will override that.
 
-	public RentalService(Double pricePerDay, Double pricePerHour, BrazilTaxService taxService) {
+	public RentalService(Double pricePerDay, Double pricePerHour, TaxService taxService) {
 		super();
 		this.pricePerDay = pricePerDay;
 		this.pricePerHour = pricePerHour;

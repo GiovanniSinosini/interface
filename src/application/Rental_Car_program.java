@@ -12,7 +12,6 @@ import model.services.BrazilTaxService;
 import model.services.RentalService;
 
 
-// SOLUTION WITHOUT INTERFACE 
 
 
 public class Rental_Car_program {
